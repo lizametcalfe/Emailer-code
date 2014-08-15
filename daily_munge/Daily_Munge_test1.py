@@ -541,7 +541,7 @@ def  daily_munge(supermarket, date) :
             
             # Define brand type
             try:    
-                supermarket2.ix[row_index, 'brand'] = brands(supermarket2,name)
+                supermarket2.ix[row_index, 'brand'] = brands(name)
             
             except Exception as e: 
                 print 'error with brand at row:' , row_index, 'name=', name, 'error = ',e
@@ -549,7 +549,7 @@ def  daily_munge(supermarket, date) :
                     
             # Define range type
             try:       
-                supermarket2.ix[row_index, 'range'] = range_type(supermarket2,name)    
+                supermarket2.ix[row_index, 'range'] = range_type(name)    
             
             except Exception as e: 
                 print 'error with range at row:' , row_index, 'name=', name,'error = ',e
