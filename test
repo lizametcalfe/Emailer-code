@@ -1,0 +1,13 @@
+#!/bin/bash
+PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+
+37 08 * * * bash  /home/mint/workinprogress/supermarket_scraper/run_scraper >> /home/mint/workinprogress/supermarket_scraper/debug.txt
+
+46 10 * * *  python /home/mint/workinprogress/Global_Code/Daily_counts_all_emails.py >> /home/mint/workinprogress/Global_Code/logs/csv_email_debug.txt
+
+54 10 * * *  python /home/mint/workinprogress/Global_Code/Send_emails.py >> /home/mint/workinprogress/Global_Code/logs/csv_email_debug.txt
+
+55 10 * * *  python /home/mint/workinprogress/Global_Code/Send_emails_7day.py >> /home/mint/workinprogress/Global_Code/logs/csv_email_debug.txt
+
+

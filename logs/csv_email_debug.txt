@@ -1,0 +1,319 @@
+sainsbury_products_20140814*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/sainsbury/sainsbury_products_20140814083723.csv
+2457
+RB TEST          date  sainsburys_count
+0  2014-08-14              2457
+Error at row 0 and column 9
+Error at row 0 and column 10
+Error at row 1 and column 9
+Error at row 1 and column 10
+Error at row 2 and column 9
+Error at row 2 and column 10
+Error at row 3 and column 9
+Error at row 3 and column 10
+Error at row 4 and column 9
+Error at row 4 and column 10
+Error at row 5 and column 9
+Error at row 5 and column 10
+Error at row 6 and column 9
+Error at row 6 and column 10
+Error at row 7 and column 9
+Error at row 7 and column 10
+Error at row 8 and column 9
+Error at row 8 and column 10
+Error at row 9 and column 9
+Error at row 9 and column 10
+Error at row 10 and column 9
+Error at row 10 and column 10
+Error at row 11 and column 9
+Error at row 11 and column 10
+Error at row 12 and column 9
+Error at row 12 and column 10
+Error at row 13 and column 9
+Error at row 13 and column 10
+Error at row 14 and column 9
+Error at row 14 and column 10
+Error at row 15 and column 9
+Error at row 15 and column 10
+Error at row 16 and column 9
+Error at row 16 and column 10
+Error at row 17 and column 9
+Error at row 17 and column 10
+Error at row 18 and column 9
+Error at row 18 and column 10
+Error at row 19 and column 9
+Error at row 19 and column 10
+Error at row 20 and column 9
+Error at row 20 and column 10
+Error at row 21 and column 9
+Error at row 21 and column 10
+Error at row 22 and column 9
+Error at row 22 and column 10
+Error at row 23 and column 9
+Error at row 23 and column 10
+Error at row 24 and column 9
+Error at row 24 and column 10
+Error at row 25 and column 9
+Error at row 25 and column 10
+Error at row 26 and column 9
+Error at row 26 and column 10
+Error at row 27 and column 9
+Error at row 27 and column 10
+Error at row 28 and column 9
+Error at row 28 and column 10
+Error at row 29 and column 9
+Error at row 29 and column 10
+tesco_products_20140814*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/tesco/tesco_products_20140814083703.csv
+2816
+RB TEST          date  tescos_count
+0  2014-08-14          2816
+Error at row 0 and column 9
+Error at row 0 and column 10
+Error at row 1 and column 9
+Error at row 1 and column 10
+Error at row 2 and column 9
+Error at row 2 and column 10
+Error at row 3 and column 9
+Error at row 3 and column 10
+Error at row 4 and column 9
+Error at row 4 and column 10
+Error at row 5 and column 9
+Error at row 5 and column 10
+Error at row 6 and column 9
+Error at row 6 and column 10
+Error at row 7 and column 9
+Error at row 7 and column 10
+Error at row 8 and column 9
+Error at row 8 and column 10
+Error at row 9 and column 9
+Error at row 9 and column 10
+Error at row 10 and column 9
+Error at row 10 and column 10
+Error at row 11 and column 9
+Error at row 11 and column 10
+Error at row 12 and column 9
+Error at row 12 and column 10
+Error at row 13 and column 9
+Error at row 13 and column 10
+Error at row 14 and column 9
+Error at row 14 and column 10
+Error at row 15 and column 9
+Error at row 15 and column 10
+Error at row 16 and column 9
+Error at row 16 and column 10
+Error at row 17 and column 9
+Error at row 17 and column 10
+Error at row 18 and column 9
+Error at row 18 and column 10
+Error at row 19 and column 9
+Error at row 19 and column 10
+Error at row 20 and column 9
+Error at row 20 and column 10
+Error at row 21 and column 9
+Error at row 21 and column 10
+Error at row 22 and column 9
+Error at row 22 and column 10
+Error at row 23 and column 9
+Error at row 23 and column 10
+Error at row 24 and column 9
+Error at row 24 and column 10
+Error at row 25 and column 9
+Error at row 25 and column 10
+Error at row 26 and column 9
+Error at row 26 and column 10
+Error at row 27 and column 9
+Error at row 27 and column 10
+Error at row 28 and column 9
+Error at row 28 and column 10
+Error at row 29 and column 9
+Error at row 29 and column 10
+Error at row 30 and column 9
+Error at row 30 and column 10
+waitrose_products_20140814*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/waitrose/waitrose_products_20140814083720.csv
+700
+RB TEST          date  waitroses_count
+0  2014-08-14              700
+Error at row 0 and column 9
+Error at row 0 and column 10
+Error at row 1 and column 9
+Error at row 1 and column 10
+Error at row 2 and column 9
+Error at row 2 and column 10
+Error at row 3 and column 9
+Error at row 3 and column 10
+Error at row 4 and column 9
+Error at row 4 and column 10
+Error at row 5 and column 9
+Error at row 5 and column 10
+Error at row 6 and column 9
+Error at row 6 and column 10
+Error at row 7 and column 9
+Error at row 7 and column 10
+Error at row 8 and column 9
+Error at row 8 and column 10
+Error at row 9 and column 9
+Error at row 9 and column 10
+Error at row 10 and column 9
+Error at row 10 and column 10
+Error at row 11 and column 9
+Error at row 11 and column 10
+Error at row 12 and column 9
+Error at row 12 and column 10
+Error at row 13 and column 9
+Error at row 13 and column 10
+Error at row 14 and column 9
+Error at row 14 and column 10
+Error at row 15 and column 9
+Error at row 15 and column 10
+Error at row 16 and column 9
+Error at row 16 and column 10
+Error at row 17 and column 9
+Error at row 17 and column 10
+Error at row 18 and column 9
+Error at row 18 and column 10
+Error at row 19 and column 9
+Error at row 19 and column 10
+Error at row 20 and column 9
+Error at row 20 and column 10
+Error at row 21 and column 9
+Error at row 21 and column 10
+Error at row 22 and column 9
+Error at row 22 and column 10
+Error at row 23 and column 9
+Error at row 23 and column 10
+Error at row 24 and column 9
+Error at row 24 and column 10
+Error at row 25 and column 9
+Error at row 25 and column 10
+Error at row 26 and column 9
+Error at row 26 and column 10
+Error at row 27 and column 9
+Error at row 27 and column 10
+Error at row 28 and column 9
+Error at row 28 and column 10
+Error at row 29 and column 9
+Error at row 29 and column 10
+Error at row 30 and column 9
+Error at row 30 and column 10
+Error at row 31 and column 9
+Error at row 31 and column 10
+Error at row 32 and column 9
+Error at row 32 and column 10
+Error at row 33 and column 9
+Error at row 33 and column 10
+sainsbury_products_20140815*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/sainsbury/sainsbury_products_20140815083722.csv
+2457
+RB TEST          date  sainsburys_count
+0  2014-08-15              2457
+Error at row 0 and column 10
+Error at row 1 and column 10
+Error at row 2 and column 10
+Error at row 3 and column 10
+Error at row 4 and column 10
+Error at row 5 and column 10
+Error at row 6 and column 10
+Error at row 7 and column 10
+Error at row 8 and column 10
+Error at row 9 and column 10
+Error at row 10 and column 10
+Error at row 11 and column 10
+Error at row 12 and column 10
+Error at row 13 and column 10
+Error at row 14 and column 10
+Error at row 15 and column 10
+Error at row 16 and column 10
+Error at row 17 and column 10
+Error at row 18 and column 10
+Error at row 19 and column 10
+Error at row 20 and column 10
+Error at row 21 and column 10
+Error at row 22 and column 10
+Error at row 23 and column 10
+Error at row 24 and column 10
+Error at row 25 and column 10
+Error at row 26 and column 10
+Error at row 27 and column 10
+Error at row 28 and column 10
+Error at row 29 and column 10
+tesco_products_20140815*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/tesco/tesco_products_20140815083703.csv
+2844
+RB TEST          date  tescos_count
+0  2014-08-15          2844
+Error at row 0 and column 10
+Error at row 1 and column 10
+Error at row 2 and column 10
+Error at row 3 and column 10
+Error at row 4 and column 10
+Error at row 5 and column 10
+Error at row 6 and column 10
+Error at row 7 and column 10
+Error at row 8 and column 10
+Error at row 9 and column 10
+Error at row 10 and column 10
+Error at row 11 and column 10
+Error at row 12 and column 10
+Error at row 13 and column 10
+Error at row 14 and column 10
+Error at row 15 and column 10
+Error at row 16 and column 10
+Error at row 17 and column 10
+Error at row 18 and column 10
+Error at row 19 and column 10
+Error at row 20 and column 10
+Error at row 21 and column 10
+Error at row 22 and column 10
+Error at row 23 and column 10
+Error at row 24 and column 10
+Error at row 25 and column 10
+Error at row 26 and column 10
+Error at row 27 and column 10
+Error at row 28 and column 10
+Error at row 29 and column 10
+Error at row 30 and column 10
+waitrose_products_20140815*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/waitrose/waitrose_products_20140815083719.csv
+700
+RB TEST          date  waitroses_count
+0  2014-08-15              700
+Error at row 0 and column 10
+Error at row 1 and column 10
+Error at row 2 and column 10
+Error at row 3 and column 10
+Error at row 4 and column 10
+Error at row 5 and column 10
+Error at row 6 and column 10
+Error at row 7 and column 10
+Error at row 8 and column 10
+Error at row 9 and column 10
+Error at row 10 and column 10
+Error at row 11 and column 10
+Error at row 12 and column 10
+Error at row 13 and column 10
+Error at row 14 and column 10
+Error at row 15 and column 10
+Error at row 16 and column 10
+Error at row 17 and column 10
+Error at row 18 and column 10
+Error at row 19 and column 10
+Error at row 20 and column 10
+Error at row 21 and column 10
+Error at row 22 and column 10
+Error at row 23 and column 10
+Error at row 24 and column 10
+Error at row 25 and column 10
+Error at row 26 and column 10
+Error at row 27 and column 10
+Error at row 28 and column 10
+Error at row 29 and column 10
+Error at row 30 and column 10
+Error at row 31 and column 10
+Error at row 32 and column 10
+Error at row 33 and column 10
+rb test    Unnamed: 0        date  waitroses_count
+0           0  2014-08-15              700
+1           0  2014-08-14              700
+2           1  2014-08-13              700

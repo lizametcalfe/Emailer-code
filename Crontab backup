@@ -1,0 +1,26 @@
+#!/bin/bash
+PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+
+37 08 * * * bash  ~/Prices/V2_supermarket_scraper/supermarket_scraper/run_scraper >> ~/Prices/V2_supermarket_scraper/supermarket_scraper/debug.txt
+
+46 08 * * *  python ~/Prices/KPIs/Global_Code/Daily_counts_all.py >> ~/Prices/KPIs/Logs/csv_email_debug.txt
+
+54 08 * * *  python ~/Prices/KPIs/Global_Code/Send_emails.py >> ~/Prices/KPIs/Logs/csv_email_debug.txt
+55 08 * * *  python ~/Prices/KPIs/Global_Code/Send_emails_7day.py >> ~/Prices/KPIs/Logs/csv_email_debug.txt
+
+11 16 * * *  python ~/Prices/Data/Global_Code/Daily_Munge.py >> ~/Prices/Data/Logs/csv_email_debug.txt
+
+#OLD
+
+
+#42 08 * * *  python ~/Prices/KPIs/sainsbury/Codes/Daily\ count\ Sainsburys.py >> ~/Prices/KPIs/sainsbury/Logs/daily_debug.txt
+#44 08 * * *  python ~/Prices/KPIs/tesco/Codes/Daily\ count\ tesco.py >> ~/Prices/KPIs/tesco/Logs/daily_debug.txt
+#46 08 * * *  python ~/Prices/KPIs/sainsbury/Codes/Daily\ count\ Waitrose.py >> ~/Prices/KPIs/waitrose/Logs/daily_debug.txt
+#48 08 * * *  python ~/Prices/KPIs/sainsbury/Codes/Change\ in\ counts\ Sainsbury.py >> ~/Prices/KPIs/sainsbury/Logs/daily_debug.txt
+#50 08 * * *  python ~/Prices/KPIs/tesco/Codes/Change\ in\ counts\ Tesco.py >> ~/Prices/KPIs/tesco/Logs/daily_debug.txt
+#50 08 * * *  python ~/Prices/KPIs/tesco/Codes/Change\ in\ counts\ Tesco.py >> ~/Prices/KPIs/tesco/Logs/daily_debug.txt
+#52 08 * * *  python ~/Prices/KPIs/waitrose/Codes/Change\ in\ counts\ Waitrose.py >> ~/Prices/KPIs/waitrose/Logs/daily_debug.txt
+#48 08 * * *  python ~/Prices/KPIs/sainsbury/Codes/sainsbury_email_python >> ~/Prices/KPIs/sainsbury/Codes/email_debug.txt
+#50 08 * * *  python ~/Prices/KPIs/tesco/Codes/tesco_email_python >> ~/Prices/KPIs/tesco/Logs/email_debug.txt
+#52 08 * * *  python ~/Prices/KPIs/waitrose/Codes/waitrose_email_python >> ~/Prices/KPIs/waitrose/Logs/email_debug.txt
