@@ -1,5 +1,6 @@
 
 class finder(object):
+	#after self are the attributes 
 	def supermarket_finder(self,supermarket,date):
 	    #read in file with the_date
 	    filename = str(supermarket)+str('_products_')+str(date)+str('*')
