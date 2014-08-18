@@ -34,3 +34,7 @@ merged_object = finder.Merger('waitrose',supermarketDF,dates)
 print(merged_object)
 
 test = merged_object.combine_data()
+
+ # 4. Apply the functions; to create new variables 
+
+ # 5. Backup to a long term storage area 
