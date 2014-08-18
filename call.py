@@ -1,38 +1,25 @@
+#this is the code to call the other components of Munge; split up by logical function 
+# this is the first set of object classes which obtain data from the dictionary and the scraper output 
+# then it merges them
+# the locations of the dictionary and the scraper output are contained in this module 
+import finder 
+#Purpose of code: Process the daily file, back up to the NAS and create a longitudinal data set
 
-class finder(object):
-	def locater(supermarket,date):
-	    #read in file with the_date
-	    filename = str(supermarket)+str('_products_')+str(date)+str('*')
-	    print filename
-	    counter = 0
-	    for file in os.listdir('/home/mint/workinprogress/supermarket_scraper/output/'+supermarket+'/'):
-	    
-	        if fnmatch.fnmatch(file, filename):
-	              
-	            atpos = file.find('_2')
-	            stopos = file.find('.')
-	            time = file[atpos+1:stopos]
-	        
-	            if counter == 0:
-	                file2 = '/home/mint/workinprogress/supermarket_scraper/output/'+ supermarket + '/'+ file
-	                time_before = file[atpos+1:stopos]
-	                print "file equals ", file2
-	                
-	            elif int(time) > int(time_before):
-	                file2 = '/home/mint/workinprogress/supermarket_scraper/output/'+ supermarket + '/'+ file
-	                time_before = file[atpos+1:stopos]
-	                print "file equals ", file2
-	            
-	            counter = counter+1
+import time
+import datetime
+from datetime import date
+from time import strptime
 
-	    try:
-	        supermarketDF = DataFrame(data=pd.read_csv(file2))
-	        #supermarketDF.drop_duplicates(cols=None, take_last=False, inplace=True)
-	        counter =  len(supermarketDF)
-	        print counter
+#Input:
+#"dates" User to change dates otherwise todaty's date will be used
+dates = datetime.date.strftime(date.today(), '%Y%m%d')
 
-	    except:
-	        print 'No data available for', date
-	        counter = 0
 
-	    return supermarketDF
+# 1. This imports the scraper data 
+Waitrose_raw = finder.Raw_finder('waitrose',dates)
+print(Waitrose_raw)
+# this is a supermarket object, we are now applying the method, to call the correct file by date
+# and supermarket 
+supermarketDF = Waitrose_raw.supermarket_finder()
+
+# 2. Manipulation of the Raw_data 

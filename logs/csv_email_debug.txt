@@ -317,3 +317,66 @@ rb test    Unnamed: 0        date  waitroses_count
 0           0  2014-08-15              700
 1           0  2014-08-14              700
 2           1  2014-08-13              700
+sainsbury_products_20140816*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/sainsbury/sainsbury_products_20140816083722.csv
+2462
+RB TEST          date  sainsburys_count
+0  2014-08-16              2462
+tesco_products_20140816*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/tesco/tesco_products_20140816083702.csv
+3140
+RB TEST          date  tescos_count
+0  2014-08-16          3140
+waitrose_products_20140816*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/waitrose/waitrose_products_20140816083719.csv
+700
+RB TEST          date  waitroses_count
+0  2014-08-16              700
+rb test    Unnamed: 0        date  waitroses_count
+0           0  2014-08-16              700
+1           0  2014-08-15              700
+2           1  2014-08-14              700
+3           2  2014-08-13              700
+sainsbury_products_20140817*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/sainsbury/sainsbury_products_20140817083722.csv
+2453
+RB TEST          date  sainsburys_count
+0  2014-08-17              2453
+tesco_products_20140817*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/tesco/tesco_products_20140817083702.csv
+3082
+RB TEST          date  tescos_count
+0  2014-08-17          3082
+waitrose_products_20140817*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/waitrose/waitrose_products_20140817083719.csv
+700
+RB TEST          date  waitroses_count
+0  2014-08-17              700
+rb test    Unnamed: 0        date  waitroses_count
+0           0  2014-08-17              700
+1           0  2014-08-16              700
+2           1  2014-08-15              700
+3           2  2014-08-14              700
+4           3  2014-08-13              700
+sainsbury_products_20140818*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/sainsbury/sainsbury_products_20140818083724.csv
+2460
+RB TEST          date  sainsburys_count
+0  2014-08-18              2460
+tesco_products_20140818*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/tesco/tesco_products_20140818083702.csv
+3146
+RB TEST          date  tescos_count
+0  2014-08-18          3146
+waitrose_products_20140818*
+file equals  /home/mint/workinprogress/supermarket_scraper/output/waitrose/waitrose_products_20140818083720.csv
+699
+RB TEST          date  waitroses_count
+0  2014-08-18              699
+rb test    Unnamed: 0        date  waitroses_count
+0           0  2014-08-18              699
+1           0  2014-08-17              700
+2           1  2014-08-16              700
+3           2  2014-08-15              700
+4           3  2014-08-14              700
+5           4  2014-08-13              700

@@ -1,8 +1,43 @@
 
-class finder(object):
+import pandas as pd
+import numpy as np
+import matplotlib as mat
+import matplotlib.pyplot as plt
+import datetime
+import csv
+import os
+import fnmatch
+import re
+
+from pandas import groupby
+from pandas import DataFrame
+from pandas import Series
+
+import time
+import datetime
+from datetime import date
+from time import strptime
+
+import datetime
+from datetime import date
+
+class Raw_finder(object):
 	#after self are the attributes 
-	def supermarket_finder(self,supermarket,date):
+
+	def __init__(self,supermarket,date):
+		self.supermarket = supermarket
+		self.date = date 
+
+	def __str__(self):
+		printer = "supermarket object\n"
+		printer += "supermarket:\n " + self.supermarket + "\n" + "date:\n " + self.date
+		return printer 
+
+	def supermarket_finder(self):
 	    #read in file with the_date
+	    # attributes 
+	    supermarket = self.supermarket
+	    date = self.date 
 	    filename = str(supermarket)+str('_products_')+str(date)+str('*')
 	    print filename
 	    counter = 0
@@ -30,20 +65,10 @@ class finder(object):
 	        supermarketDF = DataFrame(data=pd.read_csv(file2))
 	        #supermarketDF.drop_duplicates(cols=None, take_last=False, inplace=True)
 	        counter =  len(supermarketDF)
+	        supermarketDF.to_csv('/home/mint/longditudal/output/test_read.csv', index = False)
+	        return supermarketDF
 	        print counter
 
 	    except:
 	        print 'No data available for', date
 	        counter = 0
-
-	    return supermarketDF
-
-	def dictionary_merger(self,supermarketDF):
-		#locate dictionary 
-		match_dictionary = DataFrame(data=pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/match_dictionary.csv'))
-		# sort 
-		supermarketDF.sort_index(inplace=True, axis = 0, by=['ons_item_name','std_price'])
-        # merge 
-        supermarket2=pd.merge(supermarketDF,match_dictionary, how='inner', on='ons_item_name', left_index = False, right_index=False)
-        
-        return supermarket2 
