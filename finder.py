@@ -76,29 +76,31 @@ class Raw_finder(object):
 
 class Merger(object):
 
-	def __init__(self,supermarket,supermarketDF):
+	def __init__(self, supermarket, supermarketDF,date):
 		self.supermarket = supermarket
 		self.supermarketDF = supermarketDF 
+		self.date = date 
 
 	def __str__(self):
+		counter =  len(self.supermarketDF)
 		printer = "supermarket dictionary merge object\n"
-		printer += "supermarket:\n " + self.supermarket + "\n" + "merge the dicitonary and the data:\n "
+		printer += "supermarket:\n " + self.supermarket + "\n" + "merge the dicitonary and the data:\n "  
+		#print ("elephant",counter)
 		return printer 
 
 	def combine_data(self):
+		match_dictionary = pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/this.csv')
+		match_dictionary = DataFrame(match_dictionary)
 		supermarket = self.supermarket
 		supermarketDF = self.supermarketDF
-		#read match_dictionary file
-        match_dictionary = DataFrame(data=pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/match_dictionary.csv'))
-    	# print 'rb test 2', type(match_dictionary), match_dictionary                                    
-        #merge the files
-        supermarketDF.sort_index(inplace=True, axis = 0, by=['ons_item_name','std_price'])
-        supermarket2=pd.merge(supermarketDF,match_dictionary, how='inner', on='ons_item_name', left_index = False, right_index=False)
-        
-        # set date column
-        supermarket2['date'] =  date[:4]+'_'+date[4:6]+'_'+date[6:] 
-        #print supermarket2 temp file
-        supermarket2.to_csv('/home/mint/longditudal/output/merged_file' + supermarket + '.csv', index = False)
-      	
-      	counter =  len(supermarket2)
-      	print("merged count: ", counter)
+		supermarketDF.sort_index(inplace=True, axis = 0, by=['ons_item_name','std_price'])
+		supermarket2=pd.merge(supermarketDF,match_dictionary, how='inner', on='ons_item_name', left_index = False, right_index=False)
+		# set date column
+		date = self.date
+		supermarket2['date'] =  date[:4]+'_'+date[4:6]+'_'+date[6:] 
+		supermarket2.to_csv('/home/mint/longditudal/output/merged_file_12.csv', index = False)
+		counter = len(supermarket2)
+		print('merged counter: ', counter)
+		
+			
+			

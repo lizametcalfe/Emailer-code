@@ -27,8 +27,10 @@ supermarketDF = raw_data_object.supermarket_finder()
 manipulation_object = manipulation.Munger('waitrose',supermarketDF)
 print(manipulation_object)
 # manipulated supermarket data 
-supermarkeDF = manipulation_object.munge_1()
+supermarketDF = manipulation_object.munge_1()
 
 # 3. Merge with the dictionary; initialise the object
-merged_object = finder.Merger('waitrose',supermarketDF)
+merged_object = finder.Merger('waitrose',supermarketDF,dates)
 print(merged_object)
+
+test = merged_object.combine_data()
