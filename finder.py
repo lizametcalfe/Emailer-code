@@ -65,10 +65,40 @@ class Raw_finder(object):
 	        supermarketDF = DataFrame(data=pd.read_csv(file2))
 	        #supermarketDF.drop_duplicates(cols=None, take_last=False, inplace=True)
 	        counter =  len(supermarketDF)
-	        supermarketDF.to_csv('/home/mint/longditudal/output/test_read.csv', index = False)
+	        supermarketDF.to_csv('/home/mint/longditudal/output/test_read_1.csv', index = False)
+	        print("raw count: ", counter)
 	        return supermarketDF
-	        print counter
+	        
 
 	    except:
 	        print 'No data available for', date
 	        counter = 0
+
+class Merger(object):
+
+	def __init__(self,supermarket,supermarketDF):
+		self.supermarket = supermarket
+		self.supermarketDF = supermarketDF 
+
+	def __str__(self):
+		printer = "supermarket dictionary merge object\n"
+		printer += "supermarket:\n " + self.supermarket + "\n" + "merge the dicitonary and the data:\n "
+		return printer 
+
+	def combine_data(self):
+		supermarket = self.supermarket
+		supermarketDF = self.supermarketDF
+		#read match_dictionary file
+        match_dictionary = DataFrame(data=pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/match_dictionary.csv'))
+    	# print 'rb test 2', type(match_dictionary), match_dictionary                                    
+        #merge the files
+        supermarketDF.sort_index(inplace=True, axis = 0, by=['ons_item_name','std_price'])
+        supermarket2=pd.merge(supermarketDF,match_dictionary, how='inner', on='ons_item_name', left_index = False, right_index=False)
+        
+        # set date column
+        supermarket2['date'] =  date[:4]+'_'+date[4:6]+'_'+date[6:] 
+        #print supermarket2 temp file
+        supermarket2.to_csv('/home/mint/longditudal/output/merged_file' + supermarket + '.csv', index = False)
+      	
+      	counter =  len(supermarket2)
+      	print("merged count: ", counter)

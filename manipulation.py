@@ -1,22 +1,51 @@
+import pandas as pd
+import numpy as np
+import matplotlib as mat
+import matplotlib.pyplot as plt
+import datetime
+import csv
+import os
+import fnmatch
+import re
 
+from pandas import groupby
+from pandas import DataFrame
+from pandas import Series
 
-class manipulation(object):
+import time
+import datetime
+from datetime import date
+from time import strptime
 
-    def all_super(self,supermarket,fil):
+import datetime
+from datetime import date
+
+class Munger(object):
+
+    def __init__(self,supermarket,supermarketDF):
+        self.supermarket = supermarket
+        self.supermarketDF = supermarketDF
+
+    def __str__(self):
+        printer = "supermarket data object\n"
+        printer += "supermarket:\n " + self.supermarket + "\n" + "Data manipulation of supermarketDF"
+        return printer 
+
+    def munge_1(self):
+        supermarket = self.supermarket
+        supermarketDF = self.supermarketDF
         
         for row_index, rows in supermarketDF.iterrows():
             
-            
             if supermarket == 'sainsbury':
-                
-                
+                            
                 # separate Bananas and grapes from the banana category
                 if 'Banana' in supermarketDF.ix[row_index,'ons_item_name'].strip():
                     if 'GRAPE' in supermarketDF.ix[row_index,'product_name'].strip():
                         supermarketDF.ix[row_index,'ons_item_name'] = 'Grapes, per kg'
                         supermarketDF.ix[row_index,'ons_item_no'] = '212722'
                         
-                # separate otyher fruit juices from the orange category
+                # separate other fruit juices from the orange category
                 if 'Tropicana' in supermarketDF.ix[row_index,'ons_item_name'].strip():
                     if not 'ORANGE' in supermarketDF.ix[row_index,'product_name'].strip():
                         supermarketDF.ix[row_index,'ons_item_name'] = 'Fruit Juice, not orange, eg. apple'
@@ -58,4 +87,7 @@ class manipulation(object):
                     supermarketDF.ix[row_index,'ons_item_name'] = 'Potatoes, baking'
                     supermarketDF.ix[row_index,'ons_item_no'] = '212361'
         
+        counter =  len(supermarketDF)
+        print("count after manipulation:" ,counter)
+        supermarketDF.to_csv('/home/mint/longditudal/output/test_read_2.csv', index = False)
         return supermarketDF

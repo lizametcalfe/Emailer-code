@@ -3,6 +3,7 @@
 # then it merges them
 # the locations of the dictionary and the scraper output are contained in this module 
 import finder 
+import manipulation 
 #Purpose of code: Process the daily file, back up to the NAS and create a longitudinal data set
 
 import time
@@ -16,10 +17,18 @@ dates = datetime.date.strftime(date.today(), '%Y%m%d')
 
 
 # 1. This imports the scraper data 
-Waitrose_raw = finder.Raw_finder('waitrose',dates)
-print(Waitrose_raw)
-# this is a supermarket object, we are now applying the method, to call the correct file by date
-# and supermarket 
-supermarketDF = Waitrose_raw.supermarket_finder()
+raw_data_object = finder.Raw_finder('waitrose',dates)
+print(raw_data_object)
+# this is the supermarket data 
+supermarketDF = raw_data_object.supermarket_finder()
+#print supermarketDF 
 
-# 2. Manipulation of the Raw_data 
+# 2. Manipulation of the Raw_data; initialise the object
+manipulation_object = manipulation.Munger('waitrose',supermarketDF)
+print(manipulation_object)
+# manipulated supermarket data 
+supermarkeDF = manipulation_object.munge_1()
+
+# 3. Merge with the dictionary; initialise the object
+merged_object = finder.Merger('waitrose',supermarketDF)
+print(merged_object)
