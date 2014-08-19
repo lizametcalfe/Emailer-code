@@ -36,5 +36,6 @@ print(merged_object)
 supmarket2 = merged_object.combine_data()
 
  # 4. Apply the functions; to create new variables 
-
- # 5. Backup to a long term storage area 
+New_variables = transformation_functional.string_feeder()
+print(New_variables)
+# data set with new variables derived from the string 

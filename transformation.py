@@ -1,10 +1,41 @@
+import pandas as pd
+import numpy as np
+import matplotlib as mat
+import matplotlib.pyplot as plt
+import datetime
+import csv
+import os
+import fnmatch
+import re
+
+from pandas import groupby
+from pandas import DataFrame
+from pandas import Series
+
+import time
+import datetime
+from datetime import date
+from time import strptime
+
+import datetime
+from datetime import date
+
 # define the program using object based programming conventions
 # firstly define the functions which are going to merge and format the data 
 # secondly define the functions that are going to manipulatate and analyse the data 
 class Function_feeder(object):
 
-    def food_name(self):
+    def __init__(self,supermarket,supermarket2):
+        self.supermarket2 = supermarket2
+        self.supermarket = supermarket 
 
+    def __str__(self):
+        printer = "function feeder object\n"
+        printer += "supermarket:\n " + self.supermarket 
+        return printer 
+    
+    def food_name(self):
+        supermarket2 = self.supermarket2
         for row_index, row in supermarket2.iterrows():
 
             name = supermarket2.ix[row_index,'product_name'].strip()
