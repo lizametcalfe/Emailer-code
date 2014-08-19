@@ -4,6 +4,7 @@
 # the locations of the dictionary and the scraper output are contained in this module 
 import finder 
 import manipulation 
+import transformation_functional
 #Purpose of code: Process the daily file, back up to the NAS and create a longitudinal data set
 
 import time
@@ -33,9 +34,10 @@ supermarketDF = manipulation_object.munge_1()
 merged_object = finder.Merger('waitrose',supermarketDF,dates)
 print(merged_object)
 # Dictionary and supermarket data merged 
-supmarket2 = merged_object.combine_data()
+supermarket2 = merged_object.combine_data()
 
  # 4. Apply the functions; to create new variables 
-New_variables = transformation_functional.string_feeder()
-print(New_variables)
+New_variables = transformation_functional.string_feeder('waitrose',supermarket2)
+print(New_variables_object)
 # data set with new variables derived from the string 
+final = New_variables.string_feeder()

@@ -92,7 +92,7 @@ def category1(fil,name):
 
 
 
-def multiples(fil,name):
+def multiples(fil,name,supermarket):
     """ A function to create an indicator with the number of items included in the product,
     for example, 4X350ML would return '4'. If there are not more than 1, or the number
     is not specified, multipack will = 1 """
@@ -283,7 +283,7 @@ if there is no relevant volume information"""
     else:
         return int(VOL)*int(fil.ix[row_index, 'num_units']) 
 
-def brands(name):
+def brands(name,supermarket):
       
     Ownbrand = supermarket.strip().upper()
     
