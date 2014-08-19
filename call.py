@@ -32,8 +32,8 @@ supermarketDF = manipulation_object.munge_1()
 # 3. Merge with the dictionary; initialise the object
 merged_object = finder.Merger('waitrose',supermarketDF,dates)
 print(merged_object)
-
-test = merged_object.combine_data()
+# Dictionary and supermarket data merged 
+supmarket2 = merged_object.combine_data()
 
  # 4. Apply the functions; to create new variables 
 
