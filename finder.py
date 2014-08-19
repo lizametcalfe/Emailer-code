@@ -89,16 +89,18 @@ class Merger(object):
 		return printer 
 
 	def combine_data(self):
-		match_dictionary = pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/this.csv')
+		match_dictionary = pd.read_csv('/home/mint/workinprogress/Global_Code/dictionary/dict_test.csv')
 		match_dictionary = DataFrame(match_dictionary)
+		match_dictionary['ons_item_name'] = match_dictionary['ons_item_name'].map(lambda x: x.strip())
 		supermarket = self.supermarket
 		supermarketDF = self.supermarketDF
+		supermarketDF['ons_item_name'] = supermarketDF['ons_item_name'].map(lambda x: x.strip())
 		supermarketDF.sort_index(inplace=True, axis = 0, by=['ons_item_name','std_price'])
-		supermarket2=pd.merge(supermarketDF,match_dictionary, how='inner', on='ons_item_name', left_index = False, right_index=False)
+		supermarket2=pd.merge(supermarketDF,match_dictionary, how='left', on='ons_item_name', left_index = False, right_index=False)
 		# set date column
 		date = self.date
 		supermarket2['date'] =  date[:4]+'_'+date[4:6]+'_'+date[6:] 
-		supermarket2.to_csv('/home/mint/longditudal/output/merged_file_12.csv', index = False)
+		supermarket2.to_csv('/home/mint/longditudal/output/merged_file_missing_items.csv', index = False)
 		counter = len(supermarket2)
 		print('merged counter: ', counter)
 		

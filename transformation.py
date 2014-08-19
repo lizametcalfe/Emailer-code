@@ -2,6 +2,17 @@
 # firstly define the functions which are going to merge and format the data 
 # secondly define the functions that are going to manipulatate and analyse the data 
 class transform(object):
+    #after self are the attributes 
+
+    def __init__(self,supermarket,date,supermarketDF):
+        self.supermarket = supermarket
+        self.supermarketDF =supermarketDF
+        self.date = date 
+
+    def __str__(self):
+        printer = "supermarket object\n"
+        printer += "supermarket:\n " + self.supermarket + "\n" + "date:\n " + self.date
+        return printer 
 
     def new_match(self,fil,name):   
         """Function to derive a new match score for the item. Based on the 'include' 'exclude and 'remove' columns
