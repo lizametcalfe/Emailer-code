@@ -27,7 +27,9 @@ def new_match(fil,name,row_index):
     If the product name includes only includes score  = 1, 
     if it contains an excluded word; score = 0.5, and
     if it contains a word from the remove column the score given is 0.0 """
-
+    includes = [i.strip() for i in fil.ix[row_index,'include'].split(' ') if i.strip()]
+    excludes = [e.strip() for e in fil.ix[row_index,'exclude'].split(' ') if e.strip()]
+    removes = [r.strip() for r in fil.ix[row_index,'remove'].split(' ') if r.strip()]
     # For each new record set match to 0.0    
     match = 0.0
 
@@ -306,7 +308,7 @@ def range_type(name):
         return 'STANDARD'
     
 
-def extract_AVB(fil,name):
+def extract_AVB(fil,name,row_index):
     """Function to extract the alcohol volume where applicable. Contains '% or' -1 if not valid"""
     
     if any(s in  (fil.ix[row_index, 'ons_item_name'].strip().upper()) for s in ("BITTER" , "LAGER", "CIDER", "WINE")):
