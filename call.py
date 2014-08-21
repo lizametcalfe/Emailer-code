@@ -35,9 +35,16 @@ merged_object = finder.Merger('waitrose',supermarketDF,dates)
 print(merged_object)
 # Dictionary and supermarket data merged 
 supermarket2 = merged_object.combine_data()
+counter = len(supermarket2)
+print ('Processed: final count after merging: ', counter) 
+supermarket2.to_csv('/home/mint/longditudal/output/test_read_3.csv', index = False)
+
 
  # 4. Apply the functions; to create new variables 
-New_variables = transformation_functional.string_feeder('waitrose',supermarket2)
+New_variables_object = transformation_functional.string_feeder('waitrose',supermarket2)
 print(New_variables_object)
 # data set with new variables derived from the string 
-final = New_variables.string_feeder()
+final = New_variables_object.feeder()
+counter = len(final)
+print ('Processed: final count after creating new variables: ', counter) 
+final.to_csv('/home/mint/longditudal/output/test_read_4.csv', index = False)

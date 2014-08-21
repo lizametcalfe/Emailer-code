@@ -21,18 +21,13 @@ from time import strptime
 import datetime
 from datetime import date
 
-def new_match(fil,name):   
+def new_match(fil,name,row_index):   
     """Function to derive a new match score for the item. Based on the 'include' 'exclude and 'remove' columns
     in the dictionary. 
     If the product name includes only includes score  = 1, 
     if it contains an excluded word; score = 0.5, and
     if it contains a word from the remove column the score given is 0.0 """
-    # print 'test1', name, 'CRAP'
-    includes = [i.strip() for i in fil.ix[row_index,'include'].split(' ') if i.strip()]
-    excludes = [e.strip() for e in fil.ix[row_index,'exclude'].split(' ') if e.strip()]
-    removes = [r.strip() for r in fil.ix[row_index,'remove'].split(' ') if r.strip()]
-	
-       
+
     # For each new record set match to 0.0    
     match = 0.0
 
@@ -64,7 +59,7 @@ def new_match(fil,name):
     return match
 
 
-def category1(fil,name):
+def category1(fil,name,row_index):
     """ Function to set the sub_index for the product, based
         on the criteria in 'categoryt1' from the dictionary """
       
@@ -92,7 +87,7 @@ def category1(fil,name):
 
 
 
-def multiples(fil,name,supermarket):
+def multiples(fil,name,supermarket,row_index):
     """ A function to create an indicator with the number of items included in the product,
     for example, 4X350ML would return '4'. If there are not more than 1, or the number
     is not specified, multipack will = 1 """
@@ -145,7 +140,7 @@ def multiples(fil,name,supermarket):
  
 
 
-def create_vol(fil,name):
+def create_vol(fil,name,row_index):
     """This function id for extracting volume information from the product.
 Note that this is the total volume of all items if there are multiples. For e.g. if there aer 4X375ML
 the volume will be 1500. The volumes have been standardised to GRAMS and ML, and have a value of '-1'
@@ -312,7 +307,7 @@ def range_type(name):
     
 
 def extract_AVB(fil,name):
-    """Function to extract the alcohol volume where applicable. Contains % or -1 if not valid"""
+    """Function to extract the alcohol volume where applicable. Contains '% or' -1 if not valid"""
     
     if any(s in  (fil.ix[row_index, 'ons_item_name'].strip().upper()) for s in ("BITTER" , "LAGER", "CIDER", "WINE")):
         startpos = name.find("(")

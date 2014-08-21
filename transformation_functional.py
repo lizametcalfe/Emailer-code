@@ -35,35 +35,38 @@ class string_feeder(object):
         printer += "supermarket:\n " + self.supermarket
         return printer 
 
-    def feeder(): 
-        supermarket2 = self.supermarket2
+    def feeder(self): 
         supermarket = self.supermarket
+        supermarket2 = self.supermarket2
+        supermarket2 = DataFrame(supermarket2)
         for row_index, row in supermarket2.iterrows():
-            
             name = supermarket2.ix[row_index,'product_name'].strip()
-                   
+            #print name        
             # Write the match score to the record  
-            try:           
+            '''try:           
                 supermarket2.ix[row_index,'new_match'] = new_match(supermarket2,name)
             
             except Exception as e: 
                 print 'New_match error in row:', row_index, 'name=', name, 'include=', includes, 'error = ',e
-            
+        
+            '''
             # derive multiples
             try:  
-                supermarket2.ix[row_index,'num_units'] = multiples(supermarket2,name,supermarket)
+                supermarket2.ix[row_index,'num_units'] = multiples(supermarket2,name,supermarket,row_index)
             
             except Exception as e: 
                 print 'error with multipack, row =' ,row_index, 'name=', name,  row_index, 'error = ',e
-        
+            
+            
             # create total volume in ML/GRAMS
             try:    
-                supermarket2.ix[row_index,'volume_total']=create_vol(supermarket2,name)
+                supermarket2.ix[row_index,'volume_total']=create_vol(supermarket2,name,row_index)
             
             except Exception as e:
                 print 'volume error line=', row_index, 'name=', name, #'unit = ', unit, 'Voltype = ', Voltype
                 print 'error = ',e 
         
+            '''
             # Add on subcategories
             try:     
                 supermarket2.ix[row_index, 'sub_type'] = category1(supermarket2,name)
@@ -97,7 +100,8 @@ class string_feeder(object):
             
             #if supermarket2.ix[row_index,'ons_item_name']=='Tea bags, per packet of 80, 250g' and supermarket2.ix[row_index,'new_match']==0.0:
                 #print 'match', supermarket2.ix[row_index,'new_match'], 'sub_type=' ,supermarket2.ix[row_index, 'sub_type'],        'brand=', supermarket2.ix[row_index,'brand'] ,          'range=', supermarket2.ix[row_index,'range'] ,           'num_units=', supermarket2.ix[row_index,'num_units'] ,         'VOL=', supermarket2.ix[row_index,'volume'] ,            'AVB=', supermarket2.ix[row_index,'alcohol_volume'] ,         'product' , supermarket2.ix[row_index,'product_name']
-        
-        counter = len(supermarket2)
-        print ('Processed: final count after creating new variables: ', counter) 
-        return supermarket2
+            '''
+        #counter = len(supermarket2)
+        #print ('Processed: final count after creating new variables: ', counter) 
+        #supermarket2.to_csv('/home/mint/longditudal/output/test_read_3.csv', index = False)
+        return supermarket2 
