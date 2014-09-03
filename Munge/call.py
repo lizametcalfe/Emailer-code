@@ -12,39 +12,48 @@ import datetime
 from datetime import date
 from time import strptime
 
-#Input:
+
+def caller(supermarket,dates):
+	# 1. This imports the scraper data 
+	raw_data_object = finder.Raw_finder(supermarket,dates)
+	print(raw_data_object)
+	# this is the supermarket data 
+	supermarketDF = raw_data_object.supermarket_finder()
+	counter =  len(supermarketDF)
+	supermarketDF.to_csv('/home/mint/longditudal/output/'+supermarket+'/test_read_1.csv', index = False)
+	print("raw count: ", counter)
+
+	# 2. Manipulation of the Raw_data; initialise the object
+	manipulation_object = manipulation.Munger(supermarket,supermarketDF)
+	print(manipulation_object)
+	# manipulated supermarket data 
+	supermarketDF = manipulation_object.munge_1()
+	counter =  len(supermarketDF)
+	print("count after manipulation:" ,counter)
+	supermarketDF.to_csv('/home/mint/longditudal/output/'+supermarket+'/test_read_2.csv', index = False)
+
+	# 3. Merge with the dictionary; initialise the object
+	merged_object = finder.Merger(supermarket,supermarketDF,dates)
+	print(merged_object)
+	# Dictionary and supermarket data merged 
+	supermarket2 = merged_object.combine_data()
+	counter = len(supermarket2)
+	print ('Processed: final count after merging: ', counter) 
+	supermarket2.to_csv('/home/mint/longditudal/output/'+supermarket+'/test_read_3.csv', index = False)
+
+
+	# 4. Apply the functions; to create new variables 
+	New_variables_object = transformation_functional.string_feeder(supermarket,supermarket2)
+	print(New_variables_object)
+	# data set with new variables derived from the string 
+	final = New_variables_object.feeder()
+	counter = len(final)
+	print ('Processed: final count after creating new variables: ', counter) 
+	final.to_csv('/home/mint/longditudal/output/'+supermarket+'/test_read_4.csv', index = False)
+
 #"dates" User to change dates otherwise todaty's date will be used
 dates = datetime.date.strftime(date.today(), '%Y%m%d')
 
-
-# 1. This imports the scraper data 
-raw_data_object = finder.Raw_finder('waitrose',dates)
-print(raw_data_object)
-# this is the supermarket data 
-supermarketDF = raw_data_object.supermarket_finder()
-#print supermarketDF 
-
-# 2. Manipulation of the Raw_data; initialise the object
-manipulation_object = manipulation.Munger('waitrose',supermarketDF)
-print(manipulation_object)
-# manipulated supermarket data 
-supermarketDF = manipulation_object.munge_1()
-
-# 3. Merge with the dictionary; initialise the object
-merged_object = finder.Merger('waitrose',supermarketDF,dates)
-print(merged_object)
-# Dictionary and supermarket data merged 
-supermarket2 = merged_object.combine_data()
-counter = len(supermarket2)
-print ('Processed: final count after merging: ', counter) 
-supermarket2.to_csv('/home/mint/longditudal/output/test_read_3.csv', index = False)
-
-
- # 4. Apply the functions; to create new variables 
-New_variables_object = transformation_functional.string_feeder('waitrose',supermarket2)
-print(New_variables_object)
-# data set with new variables derived from the string 
-final = New_variables_object.feeder()
-counter = len(final)
-print ('Processed: final count after creating new variables: ', counter) 
-final.to_csv('/home/mint/longditudal/output/test_read_4.csv', index = False)
+caller('waitrose', dates)
+caller('tesco', dates)
+caller('sainsbury', dates)

@@ -87,7 +87,5 @@ class Munger(object):
                     supermarketDF.ix[row_index,'ons_item_name'] = 'Potatoes, baking'
                     supermarketDF.ix[row_index,'ons_item_no'] = '212361'
         
-        counter =  len(supermarketDF)
-        print("count after manipulation:" ,counter)
-        supermarketDF.to_csv('/home/mint/longditudal/output/test_read_2.csv', index = False)
+
         return supermarketDF

@@ -64,9 +64,6 @@ class Raw_finder(object):
 	    try:
 	        supermarketDF = DataFrame(data=pd.read_csv(file2))
 	        #supermarketDF.drop_duplicates(cols=None, take_last=False, inplace=True)
-	        counter =  len(supermarketDF)
-	        supermarketDF.to_csv('/home/mint/longditudal/output/test_read_1.csv', index = False)
-	        print("raw count: ", counter)
 	        return supermarketDF
 	        
 
