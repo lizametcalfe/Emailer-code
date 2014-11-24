@@ -1,0 +1,9 @@
+45 14 * * *  bash /home/mint/workinprogress/data_collection/run_scraper >> /home/mint/workinprogress/data_collection/debug.txt
+
+49 14 * * *  python /home/mint/workinprogress/global/global_code/Daily_counts_all_emails.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
+
+54 14 * * *  python /home/mint/workinprogress/global/global_code/Send_emails.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
+
+57 14 * * *  python /home/mint/workinprogress/global/global_code/Send_emails_7day.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
+
+
