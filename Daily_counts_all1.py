@@ -20,7 +20,7 @@ import time
 import datetime
 from datetime import date
 from time import strptime
-
+# NEED TO LOCALISE 
 #Then next days scrape data
 def update_prices_daily_count(supermarket, the_date):
     #read in file with the_date
@@ -60,7 +60,7 @@ def update_prices_daily_count(supermarket, the_date):
     
     #
     count_supermarket = supermarketDaily['std_price'].groupby([supermarketDaily['date']]).count()
-    #       
+    #print 'rb TEST', count_supermarket     
     daily_count_supermarket = supermarketDaily['std_price'].groupby([supermarketDaily['date']]).count()
     #   
     count_supermarketdf = DataFrame(count_supermarket)
@@ -70,22 +70,23 @@ def update_prices_daily_count(supermarket, the_date):
     count_supermarketdf.set_index(['date']).head()
     
     count_supermarketdf.columns = ['date',supermarket+'s_count']
-
+    print 'RB TEST', count_supermarketdf
    
-    #OLD
+    #OLD NEED TO CREATE KPI OUTPUT AREA
     count_supermarketdf_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
+    print 'rb test2', count_supermarketdf_OLD
     count_supermarketdf_OLD.drop_duplicates(cols=None, take_last=False, inplace=True)
-    
+    print 'rb test3', count_supermarketdf_OLD
     
     if not len(count_supermarketdf_OLD[count_supermarketdf_OLD['date'] == datetime.date.strftime(date.today(), '%Y-%m-%d')]) ==0:
         count_supermarketdf_OLD = count_supermarketdf_OLD[count_supermarketdf_OLD['date'] != datetime.date.strftime(date.today(), '%Y-%m-%d')]
 
     #NEW
     count_supermarketdf_NEW = pd.concat([count_supermarketdf,count_supermarketdf_OLD])
+    #print 'rb test', count_supermarketdf_NEW
     count_supermarketdf_NEW = count_supermarketdf_NEW[['date',supermarket+'s_count']]
-    count_supermarketdf_NEW.to_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
-
-
+    print 'rb test 4', count_supermarketdf_NEW
+    count_supermarketdf_NEW.to_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/dailycounts.csv') 
 
     # create counts by item name
     item_count_supermarketdf = DataFrame(supermarketDaily.groupby(['ons_item_name'])['std_price'].count())

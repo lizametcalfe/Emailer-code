@@ -14,7 +14,7 @@ string_attempt = str(count_waitrose_OLD.head(7))
 todays_date = datetime.date.strftime(date.today(), '%Y%m%d')
 
 fromaddr = 'onsbigdata@gmail.com'
-toaddrs = ['ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk','rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk',
+toaddrs = ['rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk','ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk',
 subject = str("Newport: Waitrose Count 7 day")
 msg = 'Subject: %s\n\n' % subject + str("Newport scraper: Please find below, the count for the latest 7 days of Waitrose data")+string_attempt
 #Credentials
@@ -34,7 +34,7 @@ string_attempt = str(count_sainsbury_OLD.head(7))
 todays_date = datetime.date.strftime(date.today(), '%Y%m%d')
 
 fromaddr = 'onsbigdata@gmail.com'
-toaddrs = ['ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk','rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk',
+toaddrs = ['rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk',
 subject = str("Newport: sainsbury Count 7 day")
 msg = 'Subject: %s\n\n' % subject + str("Newport scraper: Please find below, the count for the latest 7 days of sainsbury data")+string_attempt
 #Credentials
@@ -54,7 +54,7 @@ string_attempt = str(count_tesco_OLD.head(7))
 todays_date = datetime.date.strftime(date.today(), '%Y%m%d')
 
 fromaddr = 'onsbigdata@gmail.com'
-toaddrs = ['ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk','rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk',
+toaddrs = ['rwb0000@gmail.com'] #'nigel.swier@ons.gsi.gov.uk',
 subject = str("Newport: tesco Count 7 day")
 msg = 'Subject: %s\n\n' % subject + str("Newport scraper: Please find below, the count for the latest 7 days of tesco data")+string_attempt
 #Credentials
