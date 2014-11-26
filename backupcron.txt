@@ -1,0 +1,11 @@
+PATH=/home/mint/anaconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+50 14 * * * bash  /home/mint/workinprogress/data_collection/supermarket_scraper/run_scraper >> /home/mint/workinprogress/data_collection/debug.txt
+
+55 14 * * *  python /home/mint/workinprogress/munge/munge/call.py >> /home/mint/workinprogress/munge/munge/debug.txt
+
+59 14 * * *  python /home/mint/workinprogress/global/global_code/Daily_counts_all.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
+
+02 15 * * *  python /home/mint/workinprogress/global/global_code/Send_emails.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
+
+05 15 * * *  python /home/mint/workinprogress/global/global_code/Send_emails_7day.py >> /home/mint/workinprogress/global/global_code/logs/csv_email_debug.txt
