@@ -7,7 +7,7 @@ from time import strptime
 import csv
 import pandas as pd
 
-count_waitrose_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/waitrose/dailycounts.csv')
+count_waitrose_OLD = pd.read_csv('/home/mint/data/global/global_code/KPIs/waitrose/dailycounts.csv')
 print 'rb test', count_waitrose_OLD
 string_attempt = str(count_waitrose_OLD.head(7))
 
@@ -28,7 +28,7 @@ server.sendmail(fromaddr, toaddrs, msg)
 server.quit()  
 
 
-count_sainsbury_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/sainsbury/dailycounts.csv')
+count_sainsbury_OLD = pd.read_csv('/home/mint/data/global/global_code/KPIs/sainsbury/dailycounts.csv')
 string_attempt = str(count_sainsbury_OLD.head(7))
 
 todays_date = datetime.date.strftime(date.today(), '%Y%m%d')
@@ -48,7 +48,7 @@ server.sendmail(fromaddr, toaddrs, msg)
 server.quit() 
 
 
-count_tesco_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/tesco/dailycounts.csv')
+count_tesco_OLD = pd.read_csv('/home/mint/data/global/global_code/KPIs/tesco/dailycounts.csv')
 string_attempt = str(count_tesco_OLD.head(7))
 
 todays_date = datetime.date.strftime(date.today(), '%Y%m%d')

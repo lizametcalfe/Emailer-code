@@ -9,7 +9,7 @@
 
 
 echo $PATH
-SUPERMARKET_HOME=/home/mint/workinprogress/data_collection/supermarket_scraper
+SUPERMARKET_HOME=/home/mint/data/data_collection/supermarket_scraper
 
 SCRAPER_INPUTS=$SUPERMARKET_HOME/input
 SCRAPER_OUTPUTS=$SUPERMARKET_HOME/output

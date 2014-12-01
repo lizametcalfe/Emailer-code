@@ -27,7 +27,7 @@ def update_prices_daily_count(supermarket, the_date):
     filename = str(supermarket+'_products_')+str(the_date)+str('*')
     print filename
     counter = 0
-    for file in os.listdir('/home/mint/workinprogress/data_collection/supermarket_scraper/output/'+supermarket+'/'):
+    for file in os.listdir('/home/mint/data/data_collection/supermarket_scraper/output/'+supermarket+'/'):
         
         if fnmatch.fnmatch(file, filename):
             atpos = file.find('_2')
@@ -36,12 +36,12 @@ def update_prices_daily_count(supermarket, the_date):
 
             if counter == 0:
 
-                file2 = '/home/mint/workinprogress/data_collection/supermarket_scraper/output/'+supermarket+'/'+ file
+                file2 = '/home/mint/data/data_collection/supermarket_scraper/output/'+supermarket+'/'+ file
                 print "file equals ", file2
                 time_before = file[atpos+1:stopos]
 
             elif int(time) > int(time_before):
-                file2 = '/home/mint/workinprogress/data_collection/supermarket_scraper/output/'+supermarket+'/'+ file
+                file2 = '/home/mint/data/data_collection/supermarket_scraper/output/'+supermarket+'/'+ file
                 time_before = file[atpos+1:stopos]
                 print "file equals ", file2
 
@@ -73,7 +73,7 @@ def update_prices_daily_count(supermarket, the_date):
 
    
     #OLD
-    count_supermarketdf_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
+    count_supermarketdf_OLD = pd.read_csv('/home/mint/data/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
     count_supermarketdf_OLD.drop_duplicates(cols=None, take_last=False, inplace=True)
     
     
@@ -83,7 +83,7 @@ def update_prices_daily_count(supermarket, the_date):
     #NEW
     count_supermarketdf_NEW = pd.concat([count_supermarketdf,count_supermarketdf_OLD])
     count_supermarketdf_NEW = count_supermarketdf_NEW[['date',supermarket+'s_count']]
-    count_supermarketdf_NEW.to_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
+    count_supermarketdf_NEW.to_csv('/home/mint/data/global/global_code/KPIs/'+supermarket+'/dailycounts.csv')
 
 
 
@@ -96,7 +96,7 @@ def update_prices_daily_count(supermarket, the_date):
     item_count_supermarketdf.columns = ('ONS_ITEM_NAME' , today)
     
     #merge new data onto file
-    item_count_supermarketdf_OLD = pd.read_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/'+supermarket+'_item_counts.csv')
+    item_count_supermarketdf_OLD = pd.read_csv('/home/mint/data/global/global_code/KPIs/'+supermarket+'/'+supermarket+'_item_counts.csv')
 
 
     if today in item_count_supermarketdf_OLD.columns:
@@ -150,7 +150,7 @@ def update_prices_daily_count(supermarket, the_date):
     item_count_supermarketdf_NEW.sort(inplace=True, axis=1, ascending = False)
     
     #do not output numcol and numcol7
-    item_count_supermarketdf_NEW.ix[:,2:totcol].to_csv('/home/mint/workinprogress/global/global_code/KPIs/'+supermarket+'/'+supermarket+'_item_counts.csv', index = False)
+    item_count_supermarketdf_NEW.ix[:,2:totcol].to_csv('/home/mint/data/global/global_code/KPIs/'+supermarket+'/'+supermarket+'_item_counts.csv', index = False)
 
 
 

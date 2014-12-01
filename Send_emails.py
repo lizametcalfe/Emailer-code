@@ -24,7 +24,7 @@ msg["To"] = ", ".join(emailto)
 msg["Subject"] = "Item Counts from Newport: TEST"
 msg.preamble = "NEWPORT SCRAPER: Please find the latest Sainsbury counts by item"
 
-fileToSend = "/home/mint/workinprogress/global/global_code/KPIs/sainsbury/sainsbury_item_counts.csv"
+fileToSend = "/home/mint/data/global/global_code/KPIs/sainsbury/sainsbury_item_counts.csv"
 ctype, encoding = mimetypes.guess_type(fileToSend)
 if ctype is None or encoding is not None:
     ctype = "application/octet-stream"
@@ -54,7 +54,7 @@ attachment.add_header("Content-Disposition", "attachment", filename=fileToSend)
 msg.attach(attachment)
 
 
-fileToSend = "/home/mint/workinprogress/global/global_code/KPIs/tesco/tesco_item_counts.csv"
+fileToSend = "/home/mint/data/global/global_code/KPIs/tesco/tesco_item_counts.csv"
 ctype, encoding = mimetypes.guess_type(fileToSend)
 if ctype is None or encoding is not None:
     ctype = "application/octet-stream"
@@ -84,7 +84,7 @@ attachment.add_header("Content-Disposition", "attachment", filename=fileToSend)
 msg.attach(attachment)
 
 
-fileToSend = "/home/mint/workinprogress/global/global_code/KPIs/waitrose/waitrose_item_counts.csv"
+fileToSend = "/home/mint/data/global/global_code/KPIs/waitrose/waitrose_item_counts.csv"
 ctype, encoding = mimetypes.guess_type(fileToSend)
 if ctype is None or encoding is not None:
     ctype = "application/octet-stream"
