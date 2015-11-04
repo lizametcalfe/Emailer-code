@@ -14,7 +14,7 @@ from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 
 emailfrom = "onsbigdata@gmail.com"
-emailto = ['rwb0000@gmail.com'] #'ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk','nigel.swier@ons.gsi.gov.uk',
+emailto = ['rwb0000@gmail.com','lizametcalfe@gmail.com'] #'ben.clapperton@ons.gsi.gov.uk','ben.clapperton@hotmail.co.uk','nigel.swier@ons.gsi.gov.uk',
 username = "onsbigdata"
 password = "nibelung14"
 

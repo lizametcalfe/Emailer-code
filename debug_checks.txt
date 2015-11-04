@@ -1,0 +1,24 @@
+sainsbury_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20151104094415.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20151104105450.csv
+2007
+tesco_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20151104105423.csv
+2155
+waitrose_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20151104105445.csv
+663
+sainsbury_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20151104094415.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20151104111120.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20151104112630.csv
+2007
+tesco_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20151104105423.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20151104111103.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20151104112603.csv
+2155
+waitrose_products_20151104*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20151104111116.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20151104112626.csv
+663
