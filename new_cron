@@ -1,0 +1,10 @@
+SHELL=/bin/sh
+PATH=/home/mint/my-apps/anaconda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+25 11 * * * bash /home/mint/my-data/hello_world.sh
+
+26 11 * * * bash /home/mint/my-data/supermarket_scraper/run_scraper 
+
+28 11 * * * bash /home/mint/my-data/global_code/checks.sh >> /home/mint/my-data/global_code/debug_checks.txt
+
+30 11 * * * bash /home/mint/my-data/global_code/emailer.sh >> /home/mint/my-data/global_code/email_checks.txt
