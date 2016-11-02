@@ -22,3 +22,1480 @@ waitrose_products_20151104*
 file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20151104111116.csv
 file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20151104112626.csv
 663
+sainsbury_products_20160519*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160519041253.csv
+2210
+tesco_products_20160519*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160519040001.csv
+3606
+waitrose_products_20160519*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160519040118.csv
+1008
+sainsbury_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160520040210.csv
+No columns to parse from file
+tesco_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160520040002.csv
+No columns to parse from file
+waitrose_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160520040106.csv
+No columns to parse from file
+sainsbury_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160520153336.csv
+2214
+tesco_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160520152042.csv
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160520152301.csv
+3384
+waitrose_products_20160520*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160520152326.csv
+395
+sainsbury_products_20160521*
+local variable 'file2' referenced before assignment
+tesco_products_20160521*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160521152301.csv
+3622
+waitrose_products_20160521*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160521152324.csv
+Error tokenizing data. C error: EOF inside string starting at line 1274
+sainsbury_products_20160522*
+local variable 'file2' referenced before assignment
+tesco_products_20160522*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160522152302.csv
+2727
+waitrose_products_20160522*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160522152324.csv
+1740
+sainsbury_products_20160523*
+local variable 'file2' referenced before assignment
+tesco_products_20160523*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160523152302.csv
+3521
+waitrose_products_20160523*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160523152331.csv
+1417
+sainsbury_products_20160524*
+local variable 'file2' referenced before assignment
+tesco_products_20160524*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160524152301.csv
+3370
+waitrose_products_20160524*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160524152326.csv
+1661
+sainsbury_products_20160525*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160525153933.csv
+78
+tesco_products_20160525*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160525152301.csv
+2705
+waitrose_products_20160525*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160525152323.csv
+1872
+sainsbury_products_20160526*
+local variable 'file2' referenced before assignment
+tesco_products_20160526*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160526152302.csv
+3439
+waitrose_products_20160526*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160526152325.csv
+327
+sainsbury_products_20160527*
+local variable 'file2' referenced before assignment
+tesco_products_20160527*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160527152301.csv
+3392
+waitrose_products_20160527*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160527152325.csv
+1878
+sainsbury_products_20160528*
+local variable 'file2' referenced before assignment
+tesco_products_20160528*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160528152302.csv
+2683
+waitrose_products_20160528*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160528152323.csv
+1747
+sainsbury_products_20160529*
+local variable 'file2' referenced before assignment
+tesco_products_20160529*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160529152302.csv
+3453
+waitrose_products_20160529*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160529152327.csv
+1748
+sainsbury_products_20160530*
+local variable 'file2' referenced before assignment
+tesco_products_20160530*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160530152302.csv
+2704
+waitrose_products_20160530*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160530152328.csv
+1766
+sainsbury_products_20160531*
+local variable 'file2' referenced before assignment
+tesco_products_20160531*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160531152301.csv
+2704
+waitrose_products_20160531*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160531152330.csv
+1809
+sainsbury_products_20160601*
+local variable 'file2' referenced before assignment
+tesco_products_20160601*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160601152301.csv
+2701
+waitrose_products_20160601*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160601152319.csv
+1413
+sainsbury_products_20160602*
+local variable 'file2' referenced before assignment
+tesco_products_20160602*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160602152301.csv
+No columns to parse from file
+waitrose_products_20160602*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160602152306.csv
+1414
+sainsbury_products_20160603*
+local variable 'file2' referenced before assignment
+tesco_products_20160603*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160603152301.csv
+3466
+waitrose_products_20160603*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160603152324.csv
+1361
+sainsbury_products_20160604*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160604153406.csv
+2191
+tesco_products_20160604*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160604152302.csv
+2722
+waitrose_products_20160604*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160604152325.csv
+1063
+sainsbury_products_20160605*
+local variable 'file2' referenced before assignment
+tesco_products_20160605*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160605152302.csv
+3569
+waitrose_products_20160605*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160605152327.csv
+1402
+sainsbury_products_20160606*
+local variable 'file2' referenced before assignment
+tesco_products_20160606*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160606152302.csv
+2670
+waitrose_products_20160606*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160606152321.csv
+1402
+sainsbury_products_20160607*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160607153411.csv
+1867
+tesco_products_20160607*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160607152302.csv
+3471
+waitrose_products_20160607*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160607152329.csv
+906
+sainsbury_products_20160608*
+local variable 'file2' referenced before assignment
+tesco_products_20160608*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160608095602.csv
+3559
+waitrose_products_20160608*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160608095629.csv
+Error tokenizing data. C error: EOF inside string starting at line 1284
+sainsbury_products_20160609*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160609052628.csv
+2860
+tesco_products_20160609*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160609050002.csv
+3665
+waitrose_products_20160609*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160609050023.csv
+1876
+sainsbury_products_20160610*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160610053026.csv
+2862
+tesco_products_20160610*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160610050002.csv
+2745
+waitrose_products_20160610*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160610050020.csv
+No columns to parse from file
+sainsbury_products_20160611*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160611052235.csv
+2857
+tesco_products_20160611*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160611050001.csv
+2732
+waitrose_products_20160611*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160611050018.csv
+1884
+sainsbury_products_20160612*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160612052341.csv
+2856
+tesco_products_20160612*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160612050002.csv
+2714
+waitrose_products_20160612*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160612050020.csv
+1843
+sainsbury_products_20160613*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160613051933.csv
+2855
+tesco_products_20160613*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160613050002.csv
+3660
+waitrose_products_20160613*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160613050024.csv
+1877
+sainsbury_products_20160614*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160614051432.csv
+2857
+tesco_products_20160614*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160614050002.csv
+3641
+waitrose_products_20160614*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160614050024.csv
+1276
+sainsbury_products_20160615*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160615052137.csv
+2860
+tesco_products_20160615*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160615050002.csv
+3677
+waitrose_products_20160615*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160615050023.csv
+1868
+sainsbury_products_20160616*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160616051916.csv
+2866
+tesco_products_20160616*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160616050002.csv
+2723
+waitrose_products_20160616*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160616050022.csv
+1868
+sainsbury_products_20160617*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160617052205.csv
+2866
+tesco_products_20160617*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160617050002.csv
+2723
+waitrose_products_20160617*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160617050020.csv
+1878
+sainsbury_products_20160618*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160618052001.csv
+2868
+tesco_products_20160618*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160618050002.csv
+2709
+waitrose_products_20160618*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160618050018.csv
+1686
+sainsbury_products_20160619*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160619052209.csv
+2865
+tesco_products_20160619*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160619050002.csv
+2723
+waitrose_products_20160619*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160619050019.csv
+1853
+sainsbury_products_20160620*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160620052453.csv
+2862
+tesco_products_20160620*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160620050001.csv
+3656
+waitrose_products_20160620*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160620050021.csv
+1868
+sainsbury_products_20160621*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160621051913.csv
+2865
+tesco_products_20160621*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160621050001.csv
+3580
+waitrose_products_20160621*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160621050026.csv
+1865
+sainsbury_products_20160622*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160622052022.csv
+2866
+tesco_products_20160622*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160622050001.csv
+3676
+waitrose_products_20160622*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160622050023.csv
+1874
+sainsbury_products_20160623*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160623051635.csv
+2863
+tesco_products_20160623*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160623050001.csv
+2747
+waitrose_products_20160623*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160623050018.csv
+1464
+sainsbury_products_20160624*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160624051829.csv
+2863
+tesco_products_20160624*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160624050002.csv
+2744
+waitrose_products_20160624*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160624050019.csv
+1881
+sainsbury_products_20160625*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160625052019.csv
+2860
+tesco_products_20160625*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160625050001.csv
+2663
+waitrose_products_20160625*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160625050019.csv
+1885
+sainsbury_products_20160626*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160626052258.csv
+2858
+tesco_products_20160626*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160626050001.csv
+3560
+waitrose_products_20160626*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160626050022.csv
+1886
+sainsbury_products_20160627*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160627052115.csv
+2847
+tesco_products_20160627*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160627050002.csv
+2641
+waitrose_products_20160627*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160627050018.csv
+1885
+sainsbury_products_20160628*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160628051731.csv
+2852
+tesco_products_20160628*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160628050002.csv
+3548
+waitrose_products_20160628*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160628050021.csv
+1880
+sainsbury_products_20160629*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160629051803.csv
+2970
+tesco_products_20160629*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160629050002.csv
+3651
+waitrose_products_20160629*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160629050022.csv
+1880
+sainsbury_products_20160630*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160630051841.csv
+2967
+tesco_products_20160630*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160630050002.csv
+3739
+waitrose_products_20160630*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160630050021.csv
+1880
+sainsbury_products_20160701*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160701052025.csv
+2972
+tesco_products_20160701*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160701050002.csv
+2795
+waitrose_products_20160701*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160701050026.csv
+1692
+sainsbury_products_20160702*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160702051327.csv
+2970
+tesco_products_20160702*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160702050002.csv
+2712
+waitrose_products_20160702*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160702050020.csv
+1073
+sainsbury_products_20160703*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160703052237.csv
+2964
+tesco_products_20160703*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160703050001.csv
+3609
+waitrose_products_20160703*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160703050026.csv
+2135
+sainsbury_products_20160704*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160704052151.csv
+2963
+tesco_products_20160704*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160704050002.csv
+3606
+waitrose_products_20160704*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160704050022.csv
+2131
+sainsbury_products_20160704*
+local variable 'file2' referenced before assignment
+tesco_products_20160704*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160704161002.csv
+2687
+waitrose_products_20160704*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160704161021.csv
+1960
+sainsbury_products_20160705*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160705052706.csv
+1072
+tesco_products_20160705*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160705050002.csv
+2687
+waitrose_products_20160705*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160705050019.csv
+2134
+sainsbury_products_20160706*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160706052044.csv
+No columns to parse from file
+tesco_products_20160706*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160706050002.csv
+2703
+waitrose_products_20160706*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160706050021.csv
+2133
+sainsbury_products_20160707*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160707052517.csv
+1617
+tesco_products_20160707*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160707050002.csv
+2704
+waitrose_products_20160707*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160707050022.csv
+2135
+sainsbury_products_20160708*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160708052418.csv
+2330
+tesco_products_20160708*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160708050001.csv
+3591
+waitrose_products_20160708*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160708050025.csv
+2141
+sainsbury_products_20160709*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160709052449.csv
+2125
+tesco_products_20160709*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160709050002.csv
+2699
+waitrose_products_20160709*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160709050020.csv
+2096
+sainsbury_products_20160710*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160710052248.csv
+2667
+tesco_products_20160710*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160710050002.csv
+2700
+waitrose_products_20160710*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160710050021.csv
+2143
+sainsbury_products_20160711*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160711051200.csv
+2665
+tesco_products_20160711*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160711050001.csv
+2688
+waitrose_products_20160711*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160711050020.csv
+1004
+sainsbury_products_20160712*
+local variable 'file2' referenced before assignment
+tesco_products_20160712*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160712050002.csv
+2690
+waitrose_products_20160712*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160712050019.csv
+83
+sainsbury_products_20160713*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160713051542.csv
+2661
+tesco_products_20160713*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160713050002.csv
+2687
+waitrose_products_20160713*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160713050024.csv
+1250
+sainsbury_products_20160714*
+local variable 'file2' referenced before assignment
+tesco_products_20160714*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160714050001.csv
+3584
+waitrose_products_20160714*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160714050021.csv
+No columns to parse from file
+sainsbury_products_20160715*
+local variable 'file2' referenced before assignment
+tesco_products_20160715*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160715050001.csv
+3589
+waitrose_products_20160715*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160715050021.csv
+743
+sainsbury_products_20160716*
+local variable 'file2' referenced before assignment
+tesco_products_20160716*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160716050001.csv
+3636
+waitrose_products_20160716*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160719*
+local variable 'file2' referenced before assignment
+tesco_products_20160719*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160719050001.csv
+2696
+waitrose_products_20160719*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160720*
+file equals  /home/mint/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160720051852.csv
+2592
+tesco_products_20160720*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160720050001.csv
+3639
+waitrose_products_20160720*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160720050024.csv
+1830
+sainsbury_products_20160721*
+local variable 'file2' referenced before assignment
+tesco_products_20160721*
+file equals  /home/mint/my-data/supermarket_scraper/output/tesco/tesco_products_20160721050002.csv
+3535
+[Errno 28] No space left on device
+waitrose_products_20160721*
+file equals  /home/mint/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160721050027.csv
+No columns to parse from file
+sainsbury_products_20160801*
+local variable 'file2' referenced before assignment
+tesco_products_20160801*
+local variable 'file2' referenced before assignment
+waitrose_products_20160801*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160801050044.csv
+2601
+tesco_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160801050002.csv
+3318
+No columns to parse from file
+waitrose_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160801050720.csv
+6262
+sainsbury_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160801050044.csv
+2601
+tesco_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160801050002.csv
+3318
+No columns to parse from file
+waitrose_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160801050720.csv
+6262
+sainsbury_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160801050044.csv
+2601
+tesco_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160801050002.csv
+3318
+waitrose_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160801050720.csv
+6262
+sainsbury_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160801050044.csv
+2601
+tesco_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160801050002.csv
+3318
+waitrose_products_20160801*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160801050720.csv
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160801104123.csv
+2353
+sainsbury_products_20160802*
+local variable 'file2' referenced before assignment
+tesco_products_20160802*
+local variable 'file2' referenced before assignment
+waitrose_products_20160802*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160802*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160802124758.csv
+2599
+tesco_products_20160802*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160802120700.csv
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160802121316.csv
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160802122102.csv
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160802122339.csv
+2778
+waitrose_products_20160802*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160802113026.csv
+2471
+sainsbury_products_20160803*
+local variable 'file2' referenced before assignment
+tesco_products_20160803*
+local variable 'file2' referenced before assignment
+waitrose_products_20160803*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160803*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160803095454.csv
+1945
+tesco_products_20160803*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160803092858.csv
+2788
+waitrose_products_20160803*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160803092933.csv
+2316
+sainsbury_products_20160804*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160804052554.csv
+2602
+tesco_products_20160804*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160804050001.csv
+2788
+waitrose_products_20160804*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160804050029.csv
+2473
+sainsbury_products_20160805*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160805052146.csv
+2602
+tesco_products_20160805*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160805050001.csv
+3743
+waitrose_products_20160805*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160805050033.csv
+2412
+sainsbury_products_20160806*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160806052647.csv
+2604
+tesco_products_20160806*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160806050001.csv
+3710
+waitrose_products_20160806*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160806050032.csv
+2482
+sainsbury_products_20160807*
+local variable 'file2' referenced before assignment
+tesco_products_20160807*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160807050002.csv
+3758
+waitrose_products_20160807*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160807050036.csv
+104
+sainsbury_products_20160808*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160808052013.csv
+2539
+tesco_products_20160808*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160808050001.csv
+3733
+waitrose_products_20160808*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160808050040.csv
+2388
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160808*
+local variable 'file2' referenced before assignment
+tesco_products_20160808*
+local variable 'file2' referenced before assignment
+waitrose_products_20160808*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160809*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160809052213.csv
+2512
+tesco_products_20160809*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160809050001.csv
+3706
+waitrose_products_20160809*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160809050031.csv
+1981
+sainsbury_products_20160810*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160810052108.csv
+2512
+tesco_products_20160810*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160810050002.csv
+3616
+waitrose_products_20160810*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160810050032.csv
+2417
+sainsbury_products_20160811*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160811052145.csv
+2683
+tesco_products_20160811*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160811050002.csv
+3734
+waitrose_products_20160811*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160811050034.csv
+2477
+sainsbury_products_20160812*
+local variable 'file2' referenced before assignment
+tesco_products_20160812*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160812050001.csv
+3676
+waitrose_products_20160812*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160812050212.csv
+104
+sainsbury_products_20160812*
+local variable 'file2' referenced before assignment
+tesco_products_20160812*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160812142202.csv
+3706
+waitrose_products_20160812*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160812142239.csv
+1316
+sainsbury_products_20160813*
+local variable 'file2' referenced before assignment
+tesco_products_20160813*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160813142201.csv
+2760
+waitrose_products_20160813*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160813142235.csv
+1316
+sainsbury_products_20160814*
+local variable 'file2' referenced before assignment
+tesco_products_20160814*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160814142201.csv
+2764
+waitrose_products_20160814*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160814142235.csv
+Error tokenizing data. C error: EOF inside string starting at line 1316
+sainsbury_products_20160815*
+local variable 'file2' referenced before assignment
+tesco_products_20160815*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160815142201.csv
+3693
+waitrose_products_20160815*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160815142239.csv
+1315
+sainsbury_products_20160816*
+local variable 'file2' referenced before assignment
+tesco_products_20160816*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160816094402.csv
+3593
+waitrose_products_20160816*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160816104341.csv
+352
+sainsbury_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160817050043.csv
+2668
+tesco_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160817050002.csv
+3700
+waitrose_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160817050724.csv
+2178
+sainsbury_products_20160817*
+local variable 'file2' referenced before assignment
+tesco_products_20160817*
+local variable 'file2' referenced before assignment
+waitrose_products_20160817*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160817*
+local variable 'file2' referenced before assignment
+tesco_products_20160817*
+local variable 'file2' referenced before assignment
+waitrose_products_20160817*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160817050043.csv
+2668
+tesco_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160817050002.csv
+3700
+waitrose_products_20160817*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160817050724.csv
+2689
+sainsbury_products_20160818*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160818050039.csv
+2668
+tesco_products_20160818*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160818050002.csv
+2762
+waitrose_products_20160818*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160818050727.csv
+7438
+sainsbury_products_20160819*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160819050041.csv
+2731
+tesco_products_20160819*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160819050001.csv
+2761
+waitrose_products_20160819*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160819050719.csv
+7441
+sainsbury_products_20160819*
+local variable 'file2' referenced before assignment
+tesco_products_20160819*
+local variable 'file2' referenced before assignment
+waitrose_products_20160819*
+local variable 'file2' referenced before assignment
+sainsbury_products_20160820*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160820050046.csv
+2734
+tesco_products_20160820*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160820050001.csv
+3709
+waitrose_products_20160820*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160820050732.csv
+2473
+sainsbury_products_20160821*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160821050042.csv
+2734
+tesco_products_20160821*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160821050002.csv
+2749
+waitrose_products_20160821*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160821051245.csv
+2472
+sainsbury_products_20160822*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160822050041.csv
+2735
+tesco_products_20160822*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160822050002.csv
+3728
+waitrose_products_20160822*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160822050748.csv
+2420
+sainsbury_products_20160823*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160823050043.csv
+2733
+tesco_products_20160823*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160823050002.csv
+3708
+waitrose_products_20160823*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160823050733.csv
+1350
+sainsbury_products_20160824*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160824050041.csv
+2730
+tesco_products_20160824*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160824050001.csv
+3724
+waitrose_products_20160824*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160824050816.csv
+2454
+sainsbury_products_20160825*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160825050042.csv
+2729
+tesco_products_20160825*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160825050002.csv
+3732
+waitrose_products_20160825*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160825050736.csv
+2461
+sainsbury_products_20160826*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160826050038.csv
+2729
+tesco_products_20160826*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160826050002.csv
+2775
+waitrose_products_20160826*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160826050742.csv
+1131
+sainsbury_products_20160827*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160827050042.csv
+2730
+tesco_products_20160827*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160827050002.csv
+3689
+waitrose_products_20160827*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160827050736.csv
+2453
+sainsbury_products_20160828*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160828050121.csv
+2729
+tesco_products_20160828*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160828050002.csv
+3647
+waitrose_products_20160828*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160828051301.csv
+2452
+sainsbury_products_20160829*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160829050045.csv
+2732
+tesco_products_20160829*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160829050002.csv
+3600
+waitrose_products_20160829*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160829050732.csv
+2140
+sainsbury_products_20160830*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160830050042.csv
+2739
+tesco_products_20160830*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160830050001.csv
+3657
+waitrose_products_20160830*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160830050816.csv
+1151
+sainsbury_products_20160831*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160831050039.csv
+1536
+tesco_products_20160831*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160831050002.csv
+2729
+waitrose_products_20160831*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160831053443.csv
+1295
+sainsbury_products_20160901*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160901050050.csv
+No columns to parse from file
+tesco_products_20160901*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160901050002.csv
+3626
+waitrose_products_20160901*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160901050108.csv
+2214
+sainsbury_products_20160902*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160902050037.csv
+2732
+tesco_products_20160902*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160902050002.csv
+2696
+waitrose_products_20160902*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160902050717.csv
+1591
+sainsbury_products_20160903*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160903050040.csv
+2741
+tesco_products_20160903*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160903050002.csv
+3273
+waitrose_products_20160903*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160903050725.csv
+2459
+sainsbury_products_20160904*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160904050040.csv
+2734
+tesco_products_20160904*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160904050001.csv
+3590
+waitrose_products_20160904*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160904050815.csv
+2459
+sainsbury_products_20160905*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160905050039.csv
+2729
+tesco_products_20160905*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160905050002.csv
+2721
+waitrose_products_20160905*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160905050706.csv
+2468
+sainsbury_products_20160906*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160906050043.csv
+2730
+tesco_products_20160906*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160906050001.csv
+3580
+waitrose_products_20160906*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160906050744.csv
+1808
+sainsbury_products_20160907*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160907050039.csv
+2732
+tesco_products_20160907*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160907050002.csv
+2739
+waitrose_products_20160907*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160907050723.csv
+7000
+sainsbury_products_20160909*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160909050044.csv
+2727
+tesco_products_20160909*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160909050001.csv
+2741
+waitrose_products_20160909*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160909050720.csv
+2565
+sainsbury_products_20160910*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160910050051.csv
+2726
+tesco_products_20160910*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160910050002.csv
+3667
+waitrose_products_20160910*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160910050746.csv
+No columns to parse from file
+sainsbury_products_20160911*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160911050045.csv
+No columns to parse from file
+tesco_products_20160911*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160911050002.csv
+2546
+waitrose_products_20160911*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160911050105.csv
+1133
+sainsbury_products_20160912*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160912050124.csv
+No columns to parse from file
+tesco_products_20160912*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160912050001.csv
+No columns to parse from file
+waitrose_products_20160912*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160912050230.csv
+No columns to parse from file
+sainsbury_products_20160913*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160913050040.csv
+No columns to parse from file
+tesco_products_20160913*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160913050001.csv
+3692
+waitrose_products_20160913*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160913050059.csv
+1898
+sainsbury_products_20160914*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160914050052.csv
+2726
+tesco_products_20160914*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160914050001.csv
+3657
+waitrose_products_20160914*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160914050736.csv
+2698
+sainsbury_products_20160915*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160915050047.csv
+2728
+tesco_products_20160915*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160915050002.csv
+3676
+waitrose_products_20160915*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160915050740.csv
+2701
+sainsbury_products_20160916*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160916050054.csv
+2730
+tesco_products_20160916*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160916050001.csv
+3410
+waitrose_products_20160916*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160916050750.csv
+2697
+sainsbury_products_20160917*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160917050051.csv
+2731
+tesco_products_20160917*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160917050002.csv
+2772
+waitrose_products_20160917*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160917050824.csv
+2702
+sainsbury_products_20160918*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160918050041.csv
+2729
+tesco_products_20160918*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160918050001.csv
+3695
+waitrose_products_20160918*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160918050715.csv
+2702
+sainsbury_products_20160919*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160919050042.csv
+2729
+tesco_products_20160919*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160919050002.csv
+3719
+waitrose_products_20160919*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160919050730.csv
+2717
+sainsbury_products_20160920*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160920050058.csv
+2730
+tesco_products_20160920*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160920050002.csv
+3702
+waitrose_products_20160920*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160920050730.csv
+2708
+sainsbury_products_20160921*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160921050101.csv
+2726
+tesco_products_20160921*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160921050002.csv
+3695
+waitrose_products_20160921*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160921050748.csv
+2019
+sainsbury_products_20160922*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160922050038.csv
+2726
+tesco_products_20160922*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160922050002.csv
+2803
+waitrose_products_20160922*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160922050703.csv
+2697
+sainsbury_products_20160923*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20160923050044.csv
+2729
+tesco_products_20160923*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20160923050002.csv
+2803
+waitrose_products_20160923*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20160923050732.csv
+502
+sainsbury_products_20161003*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161003093705.csv
+2734
+tesco_products_20161003*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161003093618.csv
+2784
+waitrose_products_20161003*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161003125646.csv
+2681
+sainsbury_products_20161004*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161004040041.csv
+2735
+tesco_products_20161004*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161004040002.csv
+3747
+waitrose_products_20161004*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161004040752.csv
+2678
+sainsbury_products_20161005*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161005040041.csv
+2733
+tesco_products_20161005*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161005040002.csv
+2795
+waitrose_products_20161005*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161005040756.csv
+1455
+sainsbury_products_20161006*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161006040046.csv
+2729
+tesco_products_20161006*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161006040002.csv
+2793
+waitrose_products_20161006*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161006040742.csv
+2614
+sainsbury_products_20161007*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161007040059.csv
+2725
+tesco_products_20161007*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161007040001.csv
+3753
+waitrose_products_20161007*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161007040813.csv
+1966
+sainsbury_products_20161008*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161008040059.csv
+2738
+tesco_products_20161008*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161008040001.csv
+2779
+waitrose_products_20161008*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161008040821.csv
+2452
+sainsbury_products_20161009*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161009040045.csv
+2738
+tesco_products_20161009*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161009040001.csv
+2769
+waitrose_products_20161009*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161009040751.csv
+1071
+sainsbury_products_20161010*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161010040049.csv
+2736
+tesco_products_20161010*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161010040002.csv
+3385
+waitrose_products_20161010*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161010040800.csv
+1752
+sainsbury_products_20161011*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161011040042.csv
+2741
+tesco_products_20161011*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161011040001.csv
+2780
+waitrose_products_20161011*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161011040741.csv
+2176
+sainsbury_products_20161012*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161012040101.csv
+2737
+tesco_products_20161012*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161012040004.csv
+3292
+waitrose_products_20161012*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161012040801.csv
+2457
+sainsbury_products_20161013*
+local variable 'file2' referenced before assignment
+tesco_products_20161013*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161013040004.csv
+2728
+waitrose_products_20161013*
+local variable 'file2' referenced before assignment
+sainsbury_products_20161014*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161014040146.csv
+2724
+tesco_products_20161014*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161014040007.csv
+3264
+waitrose_products_20161014*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161014040828.csv
+1558
+sainsbury_products_20161015*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161015040055.csv
+2727
+tesco_products_20161015*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161015040007.csv
+3438
+waitrose_products_20161015*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161015040754.csv
+2450
+sainsbury_products_20161016*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161016040044.csv
+2725
+tesco_products_20161016*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161016040002.csv
+3693
+waitrose_products_20161016*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161016040732.csv
+1797
+sainsbury_products_20161017*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161017040045.csv
+2726
+tesco_products_20161017*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161017040002.csv
+3685
+waitrose_products_20161017*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161017040737.csv
+2336
+sainsbury_products_20161018*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161018040048.csv
+2731
+tesco_products_20161018*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161018040006.csv
+2745
+waitrose_products_20161018*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161018040745.csv
+2450
+sainsbury_products_20161019*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161019040036.csv
+2746
+tesco_products_20161019*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161019040008.csv
+No columns to parse from file
+waitrose_products_20161019*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161019040637.csv
+2443
+sainsbury_products_20161020*
+local variable 'file2' referenced before assignment
+tesco_products_20161020*
+local variable 'file2' referenced before assignment
+waitrose_products_20161020*
+local variable 'file2' referenced before assignment
+sainsbury_products_20161024*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161024144305.csv
+2746
+tesco_products_20161024*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161024144229.csv
+2725
+waitrose_products_20161024*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161024145114.csv
+2449
+sainsbury_products_20161025*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161025060049.csv
+2746
+tesco_products_20161025*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161025060007.csv
+3630
+waitrose_products_20161025*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161025060642.csv
+2446
+sainsbury_products_20161026*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161026060054.csv
+2740
+tesco_products_20161026*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161026060007.csv
+3706
+waitrose_products_20161026*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161026060640.csv
+1231
+sainsbury_products_20161027*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161027060040.csv
+2735
+tesco_products_20161027*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161027060004.csv
+2749
+waitrose_products_20161027*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161027060630.csv
+2441
+sainsbury_products_20161028*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161028060049.csv
+2735
+tesco_products_20161028*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161028060007.csv
+3698
+waitrose_products_20161028*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161028060642.csv
+2444
+sainsbury_products_20161029*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161029060041.csv
+2734
+tesco_products_20161029*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161029060005.csv
+2767
+waitrose_products_20161029*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161029060636.csv
+1990
+sainsbury_products_20161030*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161030060045.csv
+2734
+tesco_products_20161030*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161030060004.csv
+3693
+waitrose_products_20161030*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161030060642.csv
+2451
+sainsbury_products_20161031*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161031060044.csv
+2729
+tesco_products_20161031*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161031060004.csv
+3504
+waitrose_products_20161031*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161031060638.csv
+1976
+sainsbury_products_20161101*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161101060044.csv
+2735
+tesco_products_20161101*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161101060007.csv
+2769
+waitrose_products_20161101*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161101060656.csv
+2463
+sainsbury_products_20161102*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/sainsbury/sainsbury_products_20161102060048.csv
+2733
+tesco_products_20161102*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/tesco/tesco_products_20161102060006.csv
+3714
+waitrose_products_20161102*
+file equals  /media/mint/e834712c-23da-4cbe-a4ec-3a35d416877b/my-data/supermarket_scraper/output/waitrose/waitrose_products_20161102060644.csv
+2427
